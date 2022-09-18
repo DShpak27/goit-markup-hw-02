@@ -1,14 +1,11 @@
-/* Переменные по цвету текста */
+/* Переменные по цвету текста и фона */
 :root {
     --primary-txtcolor: #212121;
     --secondary-txtcolor: #757575;
     --accent-color: #2196F3;
     --light-txtcolor: #FFFFFF;
     --footer-contacts-txtcolor: rgba(255, 255, 255, 0.6);
-}
 
-/* Переменные по цвету фона */
-:root {
     --primary-backgrcolor:#FFFFFF;
     --secondary-backgrcolor:#F5F4FA;
     --darkpart-backgrcolor:#2F303A;
@@ -35,7 +32,7 @@ body {
 
 /* <header> */
 /* <nav> */
-.nav-site, .nav-contact {
+.nav-site, .contacts {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -63,11 +60,11 @@ body {
 }
 .nav-site .link:hover,
 .nav-site .link:focus,
-.nav-contact .link:hover,
-.nav-contact .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
     color: var(--accent-color);
 }
-.nav-contact .link {
+.contacts .link {
     color: var(--secondary-txtcolor)
 }
 .sector .txtcontent {
@@ -192,7 +189,7 @@ body {
 }
 
  /* <ul class="examples list"> */
-.filter h3 {
+.filter h2 {
     color: var(--primary-txtcolor);
     font-weight: 700;
     font-size: 18px;
